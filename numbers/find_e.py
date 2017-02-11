@@ -7,7 +7,7 @@ import math
 def find_e(num):
     """Use input to return number of digits past E."""
     if num < 100:
-        print(round(math.pi, num))
+        print(round(math.e, num))
     else:
         print("That number is too large. Try a smaller number")
 
